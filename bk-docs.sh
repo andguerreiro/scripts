@@ -3,7 +3,7 @@ set -e
 
 # Create backup file
 echo $'\e[1;33m'Creating backup file...$'\e[0m'
-tar -zcvf Documents.tar.gz /home/and/Documents
+tar -zcvf Documents.tar.gz ~/Documents
 
 # Encrypt backup file
 echo $'\e[1;33m'Encrypting backup file...$'\e[0m'
