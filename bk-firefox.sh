@@ -9,7 +9,6 @@ tar -zcvf firefox.tar.gz ~/.mozilla/firefox
 echo $'\e[1;33m'Encrypting backup file...$'\e[0m'
 gpg -c firefox.tar.gz
 
-
 # Remove backup file
 echo $'\e[1;33m'Removing backup file...$'\e[0m'
 rm firefox.tar.gz
