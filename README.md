@@ -1,5 +1,4 @@
-# Scripts
-Shell scripts
+# Shell Scripts
 
 * Give the permission with:
 ```
